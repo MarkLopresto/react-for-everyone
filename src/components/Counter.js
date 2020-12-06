@@ -9,8 +9,8 @@ export function Counter() {
     <div>
       <h3>{count}</h3>
       {/* {JavaScript expression} */}
-      <button onClick={() => setCount(count - 1)}>-</button>
-      <button onClick={() => setCount(count + 1)}>+</button>
+      <button onClick={() => setCount(count - 1)} type="button">-</button>
+      <button onClick={() => setCount(count + 1)} type="button">+</button>
     </div>
   )
 }
